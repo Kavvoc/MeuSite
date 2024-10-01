@@ -21,6 +21,8 @@
 
 }
 
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -53,9 +55,9 @@ header>h1 {
 }
 
 header>p {
-    padding: 10px 20px 0px 20px;
-    max-width: 550px;
-    margin: auto;
+     padding: 10px 20px 0px 20px;
+     margin: auto; 
+     max-width: 550px; 
     color: white;
 
 
@@ -170,7 +172,8 @@ img.diferente {
 div.video{background-color: var(--cor5);
     margin:0px -20px 0px -20px;
     padding: 15px;
-    padding-bottom: 59.5%;
+    /* height: 500px; */
+    padding-bottom: 59%;
     position:relative;
 
 }
@@ -181,6 +184,7 @@ div.video > iframe{
     position: absolute; 
     width: 90%; 
     height: 90%;
+    /* transform: translate(-50%,-50%); */
 
 
 }
